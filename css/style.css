@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    /*border: 1px solid rgb(72, 255, 0);*/
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background: #456268;
+    overflow: hidden;
+}
+
+.photo{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+p.TextSection{
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 100px;
+    display: inline-block;
+}
+
+.textaboutme{
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    margin: 0;
+    padding: 0 1rem
+}
+
+p.presentacion{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.aboutme{
+    width: auto;
+    height: auto;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+    padding-right: 2rem;
+    float: left;
+    margin: 10px;
+    float: right;
+}
+
+/*background de p. presemtacion*/
+.full{
+    width: auto;
+    height: 100vh;
+    padding: 10px;
+    background: #456268;
+}
+img[src*='FotoJeel'] {
+    border: 2px solid #FCF8EC;
+    max-width: 100%;
+    height: 350px;
+    display: inline-block;
+    
+}
+.ListHorizontal{
+    display: inline-block;
+}
+
+
+[href]{
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+    color: #d61c4e(191, 255, 41);
+}
+
+a{
+    color: #456268;;
+    text-align: center;
+    margin: 30px;
+
+}
+/*barra de nav*/
+nav{
+    width: auto;
+    height: auto;
+    position: sticky; /* es el siguiente elemento despues del header que esta fixed*/
+    top: 0px;
+    text-align: center;
+    padding: 8px;
+    background-color: #d4ba63;
+    width: 100%;
+    text-decoration: solid;
+    text-align: center;
+}
+
+/*header Jeelbert Salazar*/
+h1{
+    background-image: url(./img/backtry.jpg);
+    background-size: cover;
+    text-align: center;
+    background: #456268;
+    width: auto;
+    position: sticky;
+    top: 0px;
+    margin: 0 auto;
+    Font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: rgb(255, 255, 255)
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    }
+
+/*divisiones de cada segmento*/
+.heading-background{
+    background-color:  #d4ba63;
+    position: sticky; /* es el siguiente elemento despues del header que esta fixed*/
+    top: 0px;
+}
+
+h2.heading-background{
+    color: #456268;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    margin: 0 auto;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+
+p{
+    height: 520px;
+    width: 720px;
+    padding-top: 300px;
+    color: aliceblue;
+    background: #456268 ;
+    font-family: 'Poiret One', cursive;
+}
+
+.information{
+    width: 400px;
+    margin: 0 auto;
+    background-color: chartreuse;
+}
+
+/* Boton que llevab al home, con border y background */
+.information a{ 
+    padding: 1px;
+    background: rgb(255, 230, 0);
+    border: 1px solid red;
+    border-radius: 3px;
+    color: rgb(0, 38, 255);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.technologies {
+    font-family: 'Poiret One', cursive;
+}
+.listDesordenada{
+    display: inline-block;
+}
+.list{
+    font-family: 'Poiret One', cursive;
+}
+.technologies{
+    display: block;
+    text-align: center;
+    background-color: #d4ba6333;
+    color: #FCF8EC;
+    font-size: 30px;    
+}
+.sectionLogos{
+    text-align: center;
+
+}
+
+.logo{
+width: 200px;
+height: 200px;
+padding-left: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+label{
+    font-family: 'Secular One', sans-serif;
+}
+
+a.linkedin{
+    color: #FCF8EC;
+    margin-top: 400px;
+    padding-top: 200px;
+}
+
+p.footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    background: #456268
+
+}
+
+section{
+    background: #456268;
+}
+
+.contactme{
+    font-family: 'Secular One', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
