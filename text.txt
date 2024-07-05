@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <!-- Agrega la referencia a jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="contact" class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+  <div class="container">
+    <h2 class="text-center">Contact</h2>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <!-- Cambia el type a "submit" para que el botón envíe el formulario -->
+      <button class="btn btn-primary" id="submitBtn" type="submit">Send</button>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -3,30 +3,307 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejemplo de Bootstrap 5</title>
-  <!-- Enlace al archivo CSS de Bootstrap -->
+  <title>Jeelbert | Portfolio</title>
+  <!-- link css de bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
 
-<div class="container">
-  <h1 class="mt-5">Mi portafolio</h1>
-  <p>Lo estoy haciendo responsive </p>
-  
-  <div class="alert alert-primary" role="alert">
-    Esta es una alerta primaria.
+<body>
+<!-- contenido navbar cuando se colapsa -->
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">Jeelbert Salazar</h5>
+    <span class="text-white h6">Software Engineer | DevOps </span>
   </div>
-  
-  <button type="button" class="btn btn-success">Botón de éxito</button>
-  <button type="button" class="btn btn-danger">Botón de peligro</button>
-  
-  <div class="card mt-3" style="width: 18rem;">
-    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Jeelbert Salazar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Contact</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--    HOME     -->
+<div id="home" class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+  <!-- divisor 2 de 2 -->
+  <h3> :) Website under construction for mobile site, I'm Working on.</h3>
+  <!-- lado izquierdo -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="text-start">
+          <h3>
+            Hi! I'm 
+            <small class="text-muted"> JEEL</small>
+          </h3>
+          <p class="lead">
+            Systems Analyst student. Experience as IT Support Specialist & NOC Technician. 
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button class="btn btn-primary me-md-2" type="button">Contact me</button>
+            <button class="btn btn-primary" type="button">Button</button>
+          </div>
+        </div>
+      </div>
+      <!-- lado derecho-->
+      <div class="col">
+        <img src="..." class="img-fluid" alt="...">
+      </div>
     </div>
   </div>
 </div>
 
+<!-- ABOUT ME -->
+<div id="about" class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+  <!-- divisor 2 de 2 -->
+  <!-- lado izquierdo -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="..." class="img-fluid" alt="...">
+      </div>
+      <!-- lado derecho-->
+      <div class="col">
+        <div class="text-end">
+          <h3>
+            a real 
+            <small class="text-muted"> PASSION</small>
+            for technology.
+          </h3>
+          <p class="lead">
+            Systems Analyst student. Experience as IT Support Specialist & NOC Technician. 
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WORKS -->
+<div id="works" class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="row">
+      <!-- studies section -->
+      <div class="col">
+        Studies
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge text-bg-primary rounded-pill">14</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge text-bg-primary rounded-pill">14</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge text-bg-primary rounded-pill">14</span>
+          </li>
+        </ol>
+        <!-- fin de estudios-->
+      </div>
+      <div class="col">
+        Working Experience
+        <!-- Desde aqui empieza el acordiin con las experiencias laborales -->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- aqui termina el acordion con las experiencias laborales-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Skills -->
+<section id="skills" class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+  <div class="container">
+    <h2 class="text-center">Skills & Technologies</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <figure class="figure">
+            <img src="..." class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="figure">
+            <img src="..." class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="figure">
+            <img src="..." class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="figure">
+            <img src="..." class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Contact-->
+<div id="contact" class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+  <div class="container">
+    <h2 class="text-center">Contact</h2>
+    <form id="contactForm" method="POST">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+</div>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQueries-->
+<script>
+  $(document).ready(function() {
+    $('#contactForm').submit(function(event) {
+      // Evitar que el formulario se envíe normalmente
+      event.preventDefault();
+      
+      // Obtener los datos del formulario
+      var formData = $(this).serialize();
+      
+      // Enviar los datos al servidor
+      $.ajax({
+        type: 'POST',
+        url: '/submit-form', // La URL a la que quieres enviar los datos
+        data: formData,
+        success: function(response) {
+          // Manejar la respuesta del servidor si es necesario
+          console.log(response);
+          // Por ejemplo, mostrar un mensaje de éxito al usuario
+          alert('Formulario enviado correctamente');
+        },
+        error: function(xhr, status, error) {
+          // Manejar errores si ocurrieron
+          console.error('Error:', error);
+          // Por ejemplo, mostrar un mensaje de error al usuario
+          alert('Ocurrió un error al enviar el formulario');
+        }
+      });
+    });
+  });
+  </script>
+</body>
+</html>
